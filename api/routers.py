@@ -5,7 +5,7 @@ from api.authentication.viewsets import (
     LogoutViewSet,
 )
 from rest_framework import routers
-from api.user.viewsets import UserViewSet
+from api.user.viewsets import ( UserViewSet )
 
 router = routers.SimpleRouter(trailing_slash=False)
 
